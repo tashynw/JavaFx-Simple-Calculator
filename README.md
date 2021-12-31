@@ -1,4 +1,4 @@
-Screenshots of the GUI: https://ibb.co/drnNqdG
+Screenshot of the GUI: https://ibb.co/drnNqdG
 
 Great for persons wanting to learn JavaFX. Made with the logic of simple string building and using the package called EvalEx to evaluate the string expressions, similar to eval with python.
 
