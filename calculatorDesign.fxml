@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #32a4a8;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculator.CalculatorDesign">
+   <children>
+      <AnchorPane layoutX="6.0" layoutY="14.0" prefHeight="70.0" prefWidth="583.0">
+         <children>
+            <TextField fx:id="resultBox" alignment="CENTER" editable="false" layoutX="1.0" prefHeight="61.0" prefWidth="583.0" style="-fx-background-color: #32a887;">
+               <font>
+                  <Font name="SansSerif Regular" size="24.0" />
+               </font>
+            </TextField>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="17.0" layoutY="128.0" prefHeight="247.0" prefWidth="566.0">
+         <children>
+            <Button layoutX="33.0" layoutY="14.0" mnemonicParsing="false" onAction="#button7" style="-fx-background-color: #32a887;" text="7">
+               <font>
+                  <Font name="SansSerif Regular" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="147.0" layoutY="14.0" mnemonicParsing="false" onAction="#button8" style="-fx-background-color: #32a887;" text="8">
+               <font>
+                  <Font name="SansSerif Regular" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="257.0" layoutY="14.0" mnemonicParsing="false" onAction="#button9" style="-fx-background-color: #32a887;" text="9">
+               <font>
+                  <Font name="SansSerif Regular" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="33.0" layoutY="66.0" mnemonicParsing="false" onAction="#button4" style="-fx-background-color: #32a887;" text="4">
+               <font>
+                  <Font name="SansSerif Regular" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="147.0" layoutY="66.0" mnemonicParsing="false" onAction="#button5" style="-fx-background-color: #32a887;" text="5">
+               <font>
+                  <Font name="SansSerif Regular" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="257.0" layoutY="66.0" mnemonicParsing="false" onAction="#button6" style="-fx-background-color: #32a887;" text="6">
+               <font>
+                  <Font name="SansSerif Regular" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="33.0" layoutY="120.0" mnemonicParsing="false" onAction="#button1" style="-fx-background-color: #32a887;" text="1">
+               <font>
+                  <Font name="SansSerif Regular" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="147.0" layoutY="120.0" mnemonicParsing="false" onAction="#button2" style="-fx-background-color: #32a887;" text="2">
+               <font>
+                  <Font name="SansSerif Regular" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="257.0" layoutY="120.0" mnemonicParsing="false" onAction="#button3" style="-fx-background-color: #32a887;" text="3">
+               <font>
+                  <Font name="SansSerif Regular" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="147.0" layoutY="174.0" mnemonicParsing="false" onAction="#button0" style="-fx-background-color: #32a887;" text="0">
+               <font>
+                  <Font name="SansSerif Regular" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="33.0" layoutY="174.0" mnemonicParsing="false" onAction="#addButton" style="-fx-background-color: #32a887;" text="+">
+               <font>
+                  <Font name="SansSerif Regular" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="257.0" layoutY="174.0" mnemonicParsing="false" onAction="#minusButton" style="-fx-background-color: #32a887;" text="-">
+               <font>
+                  <Font name="SansSerif Regular" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="362.0" layoutY="120.0" mnemonicParsing="false" onAction="#divideButton" style="-fx-background-color: #32a887;" text="/">
+               <font>
+                  <Font name="SansSerif Regular" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="360.0" layoutY="174.0" mnemonicParsing="false" onAction="#computeButton" style="-fx-background-color: #32a887;" text="=">
+               <font>
+                  <Font name="SansSerif Regular" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="359.0" layoutY="66.0" mnemonicParsing="false" onAction="#multiplyButton" style="-fx-background-color: #32a887;" text="x">
+               <font>
+                  <Font name="SansSerif Regular" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="351.0" layoutY="14.0" mnemonicParsing="false" onAction="#clearScreen" style="-fx-background-color: #32a887;" text="AC">
+               <font>
+                  <Font name="SansSerif Regular" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="459.0" layoutY="68.0" mnemonicParsing="false" onAction="#leftBracket" style="-fx-background-color: #32a887;" text="(">
+               <font>
+                  <Font name="SansSerif Regular" size="16.0" />
+               </font>
+            </Button>
+            <Button layoutX="460.0" layoutY="122.0" mnemonicParsing="false" onAction="#rightBracket" style="-fx-background-color: #32a887;" text=")">
+               <font>
+                  <Font name="SansSerif Regular" size="16.0" />
+               </font>
+            </Button>
+            <Button layoutX="441.0" layoutY="14.0" mnemonicParsing="false" onAction="#backSpace" style="-fx-background-color: #32a887;" text="Back">
+               <font>
+                  <Font name="SansSerif Regular" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
